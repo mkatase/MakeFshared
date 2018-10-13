@@ -77,18 +77,68 @@ d33fef76bf8026112b7d441a4038225d679f305eb23fe2dfb5b249ce270eafbe libmakef.tar.gz
    Testing MakeFshared
 ...
 # printout function check
-Hello C World !!
-# calc function check
-# hello function check
+ Hello Subroutine World !!
+# calc function in eins module check
+# foo function in zwei module check
+           3
+           5
+# moo function in zwei module check
+           5           7
+           8           9
 Test Summary: | Pass  Total
-MakeCshared   |    6      6
-   Testing MakeCshared tests passed 
+MakeFshared   |   10     10
+   Testing MakeFshared tests passed 
 ```
+
+## Function Detail
+## Four functions for Fortran
+- printout function: output string (void return)
+- calc function: multiplication (subroutine based)
+- foo function: 1-dimensional addition (module based)
+- moo function: 2-dimensional addition (module based)
 
 ## Usage
 
 ```julia
+julia> printout()
+ Hello Subroutine World !!
 
+julia> calc(Int32[3], Int32[4])
+12
+
+julia> x = Int32[3]
+1-element Array{Int32,1}:
+ 3
+
+julia> y = Int32[8]
+1-element Array{Int32,1}:
+ 8
+
+julia> foo(x,y)
+           3
+           8
+
+julia> y[1]
+11
+
+julia> a = Int32[3,4]
+2-element Array{Int32,1}:
+ 3
+ 4
+
+julia> b = Int32[5,8]
+2-element Array{Int32,1}:
+ 5
+ 8
+
+julia> moo(a, b)
+           3           4
+           5           8
+
+julia> b
+2-element Array{Int32,1}:
+  8
+ 12
 ```
 
 ## Thanks
