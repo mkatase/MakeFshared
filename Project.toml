@@ -1,0 +1,15 @@
+authors = ["mkatase <michimoto.katase@gmail.com>"]
+name = "MakeFshared"
+uuid = "c59bbe9c-ced0-11e8-012d-c3fa7eb20545"
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
