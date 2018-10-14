@@ -1,6 +1,6 @@
 # MakeFshared
 
-MakeFshared is a package that introduce how to build self-make Fortran shared library and package.
+MakeFshared is a package that introduce how to make and build self-make Fortran shared library and package.
 
 ## Development Environment
 
