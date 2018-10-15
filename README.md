@@ -1,5 +1,8 @@
 # MakeFshared
 
+[![Build Status](https://travis-ci.org/mkatase/MakeFshared.jl.svg?branch=master)](https://travis-ci.org/mkatase/MakeFshared.jl)
+[![codecov](https://codecov.io/gh/mkatase/MakeFshared.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/mkatase/MakeFshared.jl)
+
 MakeFshared is a package that introduce how to make and build self-make Fortran shared library and package.
 
 ## Development Environment
