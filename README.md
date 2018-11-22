@@ -7,11 +7,10 @@ MakeFshared is a package that introduce how to make and build self-make Fortran 
 
 ## Development Environment
 
-* Julia 0.7.0 on Fedora 28 (4.18.14-200 on x86_64)
-* Julia 1.0.1 on Fedora 28 (4.18.14-200 on x86_64)
-* gfortran 8.2.1 on Fedora 28 (4.18.14-200 on x86_64)
+* Julia 1.0.2 on Fedora 29 (4.19.2-300 on x86_64)
+* gfortran 8.2.1 on Fedora 29 (4.19.2-300 on x86_64)
 
-The reason is that `BinaryBuilder.jl` and `BinaryProvider.jl` could not install on Julia 1.1-DEV on F28. On Julia 0.7.0 and 1.0.1, `BinaryProvidir.jl` is installed. (`BinaryBuiler.jl` could not installed.)  
+The reason is that `BinaryBuilder.jl` and `BinaryProvider.jl` could not install on Julia 1.1-DEV on F29. On Jul1.0.2, `BinaryProvidir.jl` is installed. (`BinaryBuiler.jl` could not installed.)  
 
 ## About Fortran Expansion Code
 Refer to [here](https://github.com/mkatase/JuliaPractice) for more information about build and check.
